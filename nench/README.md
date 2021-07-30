@@ -1,9 +1,9 @@
 nench.sh ("new bench.sh")
 =========================
 
-Current version always available at https://github.com/n-st/nench
+Current version always available at https://github.com/thytetgc/benchmark
 
-IPv4- and v6-enabled download at http://wget.racing/nench.sh
+IPv4- and v6-enabled download at https://raw.githubusercontent.com/thytetgc/benchmark/main/nench/nench.sh
 
 - loosely based on the established freevps.us/bench.sh
 - includes CPU and ioping measurements
@@ -44,11 +44,11 @@ Usage example
 -------------
 
 ```
-(curl -s wget.racing/nench.sh | bash; curl -s wget.racing/nench.sh | bash) 2>&1 | tee nench.log
+clear ; (curl -s https://raw.githubusercontent.com/thytetgc/benchmark/main/nench/nench.sh | bash;) 2>&1 | tee nench.log
 ```
 
 ```
-(wget -qO- wget.racing/nench.sh | bash; wget -qO- wget.racing/nench.sh | bash) 2>&1 | tee nench.log
+clear ; (wget -qO- https://raw.githubusercontent.com/thytetgc/benchmark/main/nench/nench.sh | bash;) 2>&1 | tee nench.log
 ```
 
 Example output
